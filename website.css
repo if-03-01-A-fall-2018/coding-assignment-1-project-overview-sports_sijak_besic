@@ -1,10 +1,21 @@
 article>h1{
-  font-size: 65px;
+  font-size: 60px;
   text-align: center;
 }
 section>h2{
-  font-size: 35px;
+  font-size: 30px;
+  left:50px;
+  color:red;
 }
 h2>p{
-  font-size: 30px;
+  font-size: 25px;
+  position:
+  left:60px;
+}
+
+html{
+
+  background: url(background.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-style: oblique;
 }
