@@ -11,10 +11,9 @@ section>h2{
   left:50px;
   color:red;
 }
+
 h2>p{
-  font-size: 25px;
-  position:
-  left:60px;
+  font-size: 30px;
 }
 
 html{
@@ -23,6 +22,7 @@ html{
   background-size: cover;
   font-style: oblique;
 }
+
 @-webkit-keyframes example {
     from {colo:black;}
     to {color:red;}
