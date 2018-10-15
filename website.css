@@ -1,7 +1,11 @@
 article>h1{
   font-size: 60px;
   text-align: center;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
 }
+
 section>h2{
   font-size: 30px;
   left:50px;
@@ -19,3 +23,6 @@ html{
   background-size: cover;
   font-style: oblique;
 }
+@-webkit-keyframes example {
+    from {colo:black;}
+    to {color:red;}
